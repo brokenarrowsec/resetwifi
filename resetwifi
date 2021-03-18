@@ -1,0 +1,10 @@
+cd /Library/Preferences/SystemConfiguration/
+sudo zip backup.zip \
+         com.apple.airport.preferences.plist       \
+         com.apple.network.identification.plist    \
+         com.apple.wifi.message-tracer.plist       \
+         NetworkInterfaces.plist preferences.plist
+sudo rm  com.apple.airport.preferences.plist       \
+         com.apple.network.identification.plist    \
+         com.apple.wifi.message-tracer.plist       \
+         NetworkInterfaces.plist preferences.plist
